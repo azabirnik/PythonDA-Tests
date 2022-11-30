@@ -23,7 +23,7 @@ Expecting:
     '.- .- .- .- .- .- .- .- .- ...
 ok
 Trying:
-    encode('Привет')  # doctest: +ELLIPSIS
+    encode('ГЏГ°ГЁГўГҐГІ')  # doctest: +ELLIPSIS
 Expecting:
     Traceback (most recent call last):
     ...
