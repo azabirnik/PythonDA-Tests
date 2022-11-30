@@ -5,7 +5,7 @@
 The code is in file `morse1.py`
 
 This should be executed by typing in your command line:
-`python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py`
+`python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py >result1.txt`
 
 Here:
 - `python` or `python3` is your Python executor
@@ -14,47 +14,4 @@ Here:
 - `-o NORMALIZE_WHITESPACE` is an option that is nesessary to test long outputs while havind PEP8 complient `.py` file
 - `-v` is used for verbose output, if you wish you can ommit it to make output shorter
 - `morse1.py` is the file to test, you can add relative or absolute path
-
-Sample output:
-```
-Trying:
-    encode('SOS')
-Expecting:
-    '... --- ...'
-ok
-Trying:
-    encode('PYTHON')
-Expecting:
-    '.--. -.-- - .... --- -.'
-ok
-Trying:
-    encode('A'*100)
-Expecting:
-    '.- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .-
-    .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .-
-    .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .-
-    .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .-
-    .- .- .- .-'
-ok
-Trying:
-    encode('A'*10000)  # doctest: +ELLIPSIS
-Expecting:
-    '.- .- .- .- .- .- .- .- .- ...
-ok
-Trying:
-    encode('Привет')  # doctest: +ELLIPSIS
-Expecting:
-    Traceback (most recent call last):
-    ...
-    KeyError: ...
-ok
-2 items had no tests:
-    morse1
-    morse1.decode
-1 items passed all tests:
-   5 tests in morse1.encode
-5 tests in 3 items.
-5 passed and 0 failed.
-Test passed.
-```
-
+- `>result1.txt` use this to redirect output to this file, this is optional
