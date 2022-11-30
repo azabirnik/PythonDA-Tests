@@ -17,4 +17,4 @@ Here:
 - `morse1.py` is the file to test, you can add relative or absolute path
 - `>result1.txt` use this to redirect output to this file, this is optional
 
-NOTE: encode fails on lowercase, I assume this is expected by design.
+NOTE: `encode` fails on lowercase, I assume this is expected by design.
