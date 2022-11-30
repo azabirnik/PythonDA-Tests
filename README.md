@@ -18,3 +18,19 @@ Here:
 - `>result1.txt` use this to redirect output to this file, this is optional
 
 NOTE: `encode` fails on lowercase, I assume this is expected by design.
+
+## issue-02
+
+The code of tests is in file `morse2.py` while the original `morse.py` is used by `import` in `morse2.py`
+
+This should be executed by typing in your command line:
+
+    pytest -v morse2.py >result2.txt
+
+Here:
+- `pytest` is a module for tests, if you don't have it use `pip install pytest` or `pip3 install pytest`
+- `-v` is used for verbose output, if you wish you can ommit it to make output shorter
+- `morse2.py` is the file to test, you can add relative or absolute path
+- `>result2.txt` use this to redirect output to this file, this is optional
+
+
