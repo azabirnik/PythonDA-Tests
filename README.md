@@ -5,7 +5,8 @@
 The code is in file `morse1.py`
 
 This should be executed by typing in your command line:
-`python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py >result1.txt`
+
+    `python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py >result1.txt`
 
 Here:
 - `python` or `python3` is your Python executor
