@@ -1,0 +1,12 @@
+============================= test session starts =============================
+platform win32 -- Python 3.9.13, pytest-7.2.0, pluggy-1.0.0 -- C:\My\Anaconda1\python.exe
+cachedir: .pytest_cache
+rootdir: C:\work\13\mai-python\03-instrumenty-testirovaniya-v-python
+plugins: anyio-3.5.0
+collecting ... collected 3 items
+
+morse2.py::test_eval[... --- ...-SOS] PASSED                             [ 33%]
+morse2.py::test_eval[.--. -.-- - .... --- -.-PYTHON] PASSED              [ 66%]
+morse2.py::test_eval[.- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .- .--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA] PASSED [100%]
+
+============================== 3 passed in 0.03s ==============================
