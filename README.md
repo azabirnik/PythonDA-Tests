@@ -1,5 +1,4 @@
-# PythonDA
-# Homework for tests
+# PythonDA - Homework for tests
 
 ## issue-01
 
@@ -18,7 +17,6 @@ Here:
 
 Sample output:
 ```
-python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py
 Trying:
     encode('SOS')
 Expecting:
