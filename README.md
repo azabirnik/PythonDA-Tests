@@ -9,7 +9,7 @@ This should be executed by typing in your command line:
     python -m doctest -o NORMALIZE_WHITESPACE -v morse1.py >result1.txt
 
 Here:
-- `python` or `python3` is your Python executor
+- `python` or `python3` is your Python interpreter
 - `-m` to run a module
 - `doctest` is a module for tests, if you don't have it use `pip install doctest` or `pip3 install doctest`
 - `-o NORMALIZE_WHITESPACE` is an option that is nesessary to test long outputs while havind PEP8 complient `.py` file
