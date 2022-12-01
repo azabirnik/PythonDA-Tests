@@ -1,0 +1,23 @@
+test_canonical_example (one_hot_encoder3.TestFitTrainsform) ... ok
+test_long_input1 (one_hot_encoder3.TestFitTrainsform) ... FAIL
+test_long_input2 (one_hot_encoder3.TestFitTrainsform) ... ok
+test_wrong_input (one_hot_encoder3.TestFitTrainsform) ... ok
+
+======================================================================
+FAIL: test_long_input1 (one_hot_encoder3.TestFitTrainsform)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\work\13\mai-python\03-instrumenty-testirovaniya-v-python\one_hot_encoder3.py", line 18, in test_long_input1
+    self.assertEqual(fit_transform(["A" * 100000]), [("A" * 10000, [1])])
+AssertionError: Lists differ: [('AA[9993 chars]AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[89962 chars][1])] != [('AA[9993 chars]AAAAA', [1])]
+
+First differing element 0:
+('AAA[9992 chars]AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[89961 chars] [1])
+('AAA[9992 chars]AAAAA', [1])
+
+Diff is 110026 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.025s
+
+FAILED (failures=1)
